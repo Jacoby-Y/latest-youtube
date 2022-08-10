@@ -1,0 +1,37 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    /* font-family: Consolas, monaco, monospace; */
+    background-color: #1F2129;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+Primary Greys:
+    #3D3F49 Light
+    #272934 Medium
+    #1F2129 Dark
+
+Primary Yellows:
+    #FFEFA6 Light
+    #FFD55F Medium
+    #FCBB45 Dark-ish
+
+    #BB9C46 Faint-Dark
+*/
